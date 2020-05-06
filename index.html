@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="quiz-home-box custom-box">
+        <h3>Welcome to my quiz game</h3>
+        <p>I have five questions for you, choose one option and at the end, you will see your score.</p>
+        <button type="button" class="start-quiz-btn btn">Start Quiz</button>
+    </div>
+    <div class="quiz-box custom-box hide">
+        <div class="stats">
+            
+            <div class="score-board">
+                <span class="score-text">Score:</span>
+                <span class="correct-answers">0</span>
+            </div>
+        </div>
+        <div class="question-box">
+            <div class="current-question-num">
+                1 / 9
+            </div>
+            <div class="question-text">
+                
+            </div>
+        </div>
+        <div class="option-box">
+            
+        </div>
+        <!-- <div class="answer-description hide">
+            They really dont
+        </div> -->
+        <div class="next-question">
+            <button type="button" class="next-qustion-btn btn hide">Next Question</button>
+            <button type="button" class="see-result-btn btn hide">See Result</button>
+        </div>
+    </div>
+    <div class="quiz-over-box custom-box hide">
+        <h1>Quiz Result</h1>
+        <h4>You Scored <span class="total-score"></span> out of 5!</h4>
+        <h3>Thank You For Playing!!</h3>
+     </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
