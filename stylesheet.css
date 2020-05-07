@@ -201,3 +201,20 @@ body{
 .quiz-over-box h3{
     font-style: italic;
 }
+
+@media (max-width: 760px){
+    /* .quiz-home-box h3{
+        font-size: 15px;
+    }
+    .quiz-home-box p{
+        font-size: 13px;
+    } */
+
+    .quiz-box .option-box .option{
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+        padding-right: 10px;
+        margin: 2px;
+    }
+}
