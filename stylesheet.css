@@ -4,7 +4,7 @@
 
 body{
     margin:  0;
-    background-color: rgb(245, 141, 6);
+    background-color: rgb(75, 29, 29);
     background-attachment: fixed;
 }
 
@@ -60,7 +60,7 @@ body{
 
 
 .quiz-box{
-    background-color: pink;    
+    background-color: gray;    
 }
 
 .quiz-box .stats{

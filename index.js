@@ -84,7 +84,7 @@ function check(ele){
     scoreBoard();
     } else {
         ele.classList.add("wrong");
-    }
+        }
 
     disableOptions();
     /* showAnswerDescription(); */
