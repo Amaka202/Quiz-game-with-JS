@@ -8,8 +8,10 @@ const showdesc = document.querySelector(".answer-description")
 const nextQuestionBtn = document.querySelector(".next-qustion-btn")
 const correctAnswers = document.querySelector(".correct-answers")
 const quizEnd = document.querySelector(".see-result-btn");
+const gameOver = document.querySelector(".game-over");
 const QuizOver = document.querySelector(".quiz-over-box");
 const totalScore = document.querySelector(".total-score");
+
 let questionIndex = 0;
 let score= 0;
 let number=0;
@@ -105,6 +107,7 @@ function disableOptions(){
 
 function showNextQuestionBtn(){
     if (number == myApp.length) {
+        gameOver.classList.remove("hide");
         quizEnd.classList.remove("hide");
     }else{
     nextQuestionBtn.classList.remove("hide");
